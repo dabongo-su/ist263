@@ -9,11 +9,11 @@ a:hover{
     color:#b042f5
 }
 body{
-    background-color:#000000
+    background-color:#000000;
+    background-image: url("../images/pumpkin.png");
+    background-repeat: no-repeat;
 }
+
 p{
     background-color:#fff4d6
-}
-body{
-    background-image: url("../images/pumpkin.png");
 }
