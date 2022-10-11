@@ -1,0 +1,7 @@
+p {
+    background-color:#160ff1;
+    border:2px solid #ff8000;
+    padding:20px;
+    background-image: url("../images/otto.png");
+    background-repeat: repeat;
+}
