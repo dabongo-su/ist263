@@ -1,0 +1,29 @@
+body{
+    background-color:#ebf5fc;
+    }
+    p{
+    color: #0d1f66;
+    }
+    a {
+    color:#3e065f
+    }
+    h1{
+    color: #06113c;
+    }
+    nav{
+        background-color: #ffffff;
+        padding: 10px;
+        margin: bottom 30px;
+    }
+    nav a{
+        color: #4b4b4e;
+    }
+    nav a:hover{
+        background-color: #f8f2fb;
+    }
+    .quote{
+        float: right;
+    }
+    .copyright{
+        float: left;
+    }
