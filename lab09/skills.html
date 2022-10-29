@@ -9,6 +9,36 @@
     <style> 
     table, th, td {border: 1px solid black;}
     .evenrow{background-color: #ffffff;}
+    .flexbox, .flex1{
+        display:flex;
+    }
+    .flex1{
+        flex: 2;
+        justify-content:space-around;
+    }
+    .flex2{
+        background-color: #ffffff;border-radius: 20px;
+            margin:10px;
+            display:flex;
+            padding:20px;
+            padding-left:30px;
+            padding-right: 30px;
+            float: 60px;
+            display: flex;
+    }
+    .other{
+        background-color: #ffffff;
+    }
+    div{
+        border-radius: 20px;
+            padding:10px;
+           
+    }
+    p{
+        margin:30px;
+        padding-right:300px;
+        padding-left:180px;
+    }
     </style>
 </head>
 <body>
@@ -18,12 +48,45 @@
         <a href="skills.html"> Skills </a>
     </nav>
     <h1>Skill Sets</h1>
-    <p>I have focuses my life path towards design, creation and entrepeneurship. I am looking to develop all the skills and things I have learned throught my life. Each aspect is helping to achieve my goal of becoming the best product designer I can be</p>
-    <img src="2.jpg" alt="1">
-    <img src="3.jpg" alt="2">
-    <img src="4.jpg" alt="3">
-    <img src="5.jpg" alt="4">
-    <img src="6.jpg" alt="5">
+    <p>I have focused my life path towards design, creation and entrepeneurship. I am looking to develop all the skills and things I have learned throught my life. Each aspect is helping to achieve my goal of becoming the best product designer I can be.</p>
+    <div class="flexbox">
+        <div class="flex1">  
+            <div> 
+                <img src="2.jpg" alt="1"><br>
+                Illustrator<br>
+            </div>
+            <div> 
+                <img src="3.jpg" alt="2"><br>
+                Indesign<br>
+            </div>
+            <div>
+                <img src="4.jpg" alt="3"><br>
+                Photoshop<br>
+            </div>
+            <div> 
+                <img src="5.jpg" alt="4"><br>
+                Prototyping/Sketching<br>
+            </div>
+            <div>
+                <img src="6.jpg" alt="5"><br>
+                Entrepeneurship<br>
+            </div>
+         </div>
+        <div> 
+            <aside>
+                <div class="flex2">
+                    <div>
+                     <h2>Other Skills</h2>
+                     Html<br>
+                     CSS<br>
+                     3D Modeling<br>
+                     3D Printing<br>
+                     Metalsmithing<br>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
     <!-- <table>
         <caption>Skill sets</caption> 
         <tr>
@@ -47,7 +110,7 @@
             <td>Beverly Hills, California</td>
         </tr>
         <tr>
-            <td>3D Modeli g</td>
+            <td>3D Modeling</td>
             <td>Experience with Fusion360 and Solidworks</td>
             <td>How to develop ideas into a 3D model thats rendered to real life standards</td>
         </tr>
@@ -71,6 +134,7 @@
             <td>Put together 3D printer and experimented with printing</td>
             <td>learned how to print my CAD drawings and include them into projects</td>
         </tr>
-    --></table>
+    </table>
+    -->
 </body>
 </html>
