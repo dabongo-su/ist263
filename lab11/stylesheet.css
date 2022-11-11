@@ -1,0 +1,48 @@
+body{
+    background-color:#ebf5fc;
+    }
+    p{
+    color: #0d1f66;
+    font-size: 2em;
+    }
+    a {
+    color:#3e065f
+    }
+    h1{
+    color: #06113c;
+    }
+    nav{
+        background-color: #ffffff;
+        padding: 10px;
+        margin: bottom 30px;
+        font-size: 2em;
+    }
+    .input, .flex1, .flex2 {
+        font-size: 2em;
+    }
+    nav a{
+        color: #4b4b4e;
+    }
+    nav a:hover{
+        background-color: #f8f2fb;
+    }
+    .quote{
+        float: right;
+    }
+    .copyright{
+        float: left;
+    }
+    h1{
+        text-align: center;
+    }
+        .bioimage {max-width:100%}
+    .row2{
+        display:flex;
+        flex-wrap: wrap; 
+    }
+    @media only screen and (max-width: 600px) {
+        nav a{display:block}}
+        span{display:none;}
+        nav a{padding:10px}
+        @media only screen and (min-width:600px){
+        span{display:inline;} }
