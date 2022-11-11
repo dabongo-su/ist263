@@ -17,8 +17,15 @@ body{
         margin: bottom 30px;
         font-size: 2em;
     }
-    .input, .flex1, .flex2 {
+    .input, h3, li, h2 {
         font-size: 2em;
+    }
+    h1{font-size: 3em;}
+    .flex1{
+        font-size: 1.5em;
+    }
+   .flex2{
+        font-size: 1.5em;
     }
     nav a{
         color: #4b4b4e;
@@ -46,3 +53,14 @@ body{
         nav a{padding:10px}
         @media only screen and (min-width:600px){
         span{display:inline;} }
+    .skip{
+            background-color: #0037ff;
+            padding: 5px;
+            border: 1px solid black;
+            position: absolute;
+            top:30px;
+            left:-999px; /*pushes it off screen*/
+        }
+    .skip:focus{  /* focus is a psuedo class that means the element has been tabbed to */
+           left:10px;
+        }
