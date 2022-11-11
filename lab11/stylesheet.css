@@ -31,7 +31,7 @@ body{
         color: #4b4b4e;
     }
     nav a:hover{
-        background-color: #f8f2fb;
+        background-color: #ebd0f9;
     }
     .quote{
         float: right;
@@ -63,4 +63,7 @@ body{
         }
     .skip:focus{  /* focus is a psuedo class that means the element has been tabbed to */
            left:10px;
+        }
+        .copyright, .quote{ 
+            font-size: 1em;
         }
