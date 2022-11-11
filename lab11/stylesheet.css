@@ -1,5 +1,5 @@
 body{
-    background-color:#ebf5fc;
+    background-color:#c8e4f8;
     }
     p{
     color: #0d1f66;
@@ -12,10 +12,11 @@ body{
     color: #06113c;
     }
     nav{
-        background-color: #ffffff;
+        background-color:#ffffff ;
         padding: 10px;
         margin: bottom 30px;
         font-size: 2em;
+        color:#555555;
     }
     .input, h3, li, h2 {
         font-size: 2em;
