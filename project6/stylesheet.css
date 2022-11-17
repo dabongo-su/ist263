@@ -1,0 +1,20 @@
+body{
+    background-color:#ddeffc;
+    }
+p{
+    color: #020d3a;
+    font-size: 2em;
+    }
+a {
+    color:#3e065f
+    }
+h1{
+    color: #06113c;
+    }
+nav{
+    background-color:#ffffff ;
+    padding: 10px;
+    margin: bottom 30px;
+    font-size: 4em;
+    color:#4a4a4a;
+}
