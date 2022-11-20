@@ -5,79 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
-<style>
-    body{
-    background-color:#f3f8fe;
-    }
-    h1{
-        font-size:3em;
-    }
-    h2{
-        font-size:2em;
-    }
-    hr{
-    height: 5px;
-    background-color: #020d3a;
-    }
-    .parent1{
-        display:flex;
-    }
-    .childdefine{
-        Margin: 30px;
-        padding:20px;
-        margin-top: 50px;
-    }
-    .childimage{
-      Margin: 30px;
-      padding:30px;
-      background-color: #ffffff;
-      border-radius: 30px;
-    
-    }
-    p{
-        font-size: 2em;
-        color: #020d3a;
-    }
-    .footrow1{
-        display:flex;
-    }
-    .c1,.c2{
-        padding:50px;
-    }
-    input{
-        width: 50%;
-        margin:10px;
-        float:right;
-    }
-    
-</style>
 <body>
     <nav>
         <a href="home.html" tabindex="1"> Home </a><span>&#124;</span>
         <a href="kitchentool.html" tabindex="2"> Kitchenware </a><span>&#124;</span>
         <a href="helmet.html" tabindex="3"> Helmet </a>
+    </nav>
 
     <h1>Delaney Bongo's Industrial Design Portfolio</h1>
-    <hr>
-    <div class="parent1">
-        <div class="childdefine"><h2>Defining Industrial Design</h2>
-            <p>Industrial design, the profession of designing products ranging from ornamental to usable 
-                products. Its important for designers to see the world from an outside perspective. This gives insight
-                to see how things work, and to observe the different habits and perspectives people have. Through these observations designers can make huge innovative changes for a growing society. Observation and research can lead to purposeful, innovative, and long lasting products.
-                </p>
-            <h2>Defining My Work</h2>
-            <p>Functionality is the core principle behind my creations. Functionality can be defined in two ways: having a special purpose and purposeful design. I try to gear my designs to represent these definitions. I value quality, longevity, innovation and sustainable. Finding new ways to create and design objects is a passion of mine. Its an industrial designers job to imporove the way humans live. </p></div>
-        <div class="childimage"><img src ="../project/images/chopblock-header.jpg" alt="Chop Block, Cutting board and Chop Cutters"><br>
-            <h1>Chop Block</h1>
-            <p>The Chop Block is meant to innovate on the users cooking experience. I combined the design of a dough cutter with the function of a chefs knife to create a product thats perfect for cutting and carrying food from the blade to your plate or stove. The ergonomic shape of the handle is fit to the palm and fingers. The blade shape lets the user cut in a repeated motion with ease.</p>
-            <img src="../project/images/helmet-header.jpg" alt="Compactable Bike Helmet"><br>
+    <hr class="boldhr">
+  <h2>Defining Industrial Design</h2>
+ <p>Industrial design, the profession of designing products ranging from ornamental to usable 
+ products. Its important for designers to see the world from an outside perspective. This gives insight
+ to see how things work, and to observe the different habits and perspectives people have. Through these observations designers can make huge innovative changes for a growing society. Observation and research can lead to purposeful, innovative, and long lasting products.
+ </p>
+ <hr>
+
+ <h2>Defining My Work</h2>
+  <p>Functionality is the core principle behind my creations. Functionality can be defined in two ways: having a special purpose and purposeful design. I try to gear my designs to represent these definitions. I value quality, longevity, innovation and sustainable. Finding new ways to create and design objects is a passion of mine. Its an industrial designers job to imporove theway humans live. </p>
+ <hr>
+ 
+    <div class="projectheaders">
+     <div class="chopheader">
+         <img src ="../project/images/chopblock-header.jpg" alt="Chop Block, Cutting board and Chop Cutters"><br>
+         <h1>Chop Block</h1>
+         <p>The Chop Block is meant to innovate on the users cooking experience. I combined the design of a dough cutter with the function of a chefs knife to create a product thats perfect for cutting and carrying food from the blade to your plate or stove. The ergonomic shape of the handle is fit to the palm and fingers. The blade shape lets the user cut in a repeated motion with ease.</p>
+        </div>
+     <div class="helmetheader"><img src="../project/images/helmet-header.jpg" alt="Compactable Bike Helmet"><br>
             <h1>Bike Helmet</h1>
             <p>I designed this foldable bike helmet for a few reasons. A small amount of cycylisyts actually wear helmets, helmets are too chunky to bring around and cyclists need head protecting in their compotion against other vehicles. I chose to value a helmet that would be worn more rather then being supper protective in this design. </p></div>
+        </div>
     </div>
-
-    <h2>Other Work</h2>
-    <img src="../project/images/sketch.jpg" alt="sketches">
+    
+    <p><h2>Other Work</h2>
+        <img class="sketching" src="../project/images/sketch.jpg" alt="sketches"></p>
     <footer>
         <div class="footrow1"> <!-- the row for the flexbox -->
             <div class="c1">
@@ -88,13 +51,15 @@
                 <label for="anyquestions">Questions/Contact:</label>
                       <textarea id="anyquestions" name="anyquestions"></textarea><br>
                       <input type="submit" value="Submit"> </div>
-                    <div><a href="https://www.linkedin.com/in/delaney-bongo-8784331b0/" tabindex="4">Linkedin Profile</a></p>
-                        <img src="../images/logo-sized.jpg" alt="Linkedin Logo"></div>  
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/delaney-bongo-8784331b0/" tabindex="4">Linkedin Profile</a></p>
+                        <img src="../images/logo-sized.jpg" alt="Linkedin Logo">
+                    </div>
+            </div>  
 
         </div>
         <div class="footrow2">
             <div>&#169; 2022 Delaney Bongo </div>
         </div>
-    </footer>
 </body>
 </html>
