@@ -15,8 +15,9 @@ h2{
     font-size:2em;
 }
 hr{
-height: 2px;
+height: 1.5px;
 background-color: #020d3a;
+color:#020d3a
 }
 .boldhr{
     height:5px;
@@ -48,8 +49,9 @@ p{
     color:#f3f8fe;
 }
 .footrow2{
-    background-color:#ffffff;
-    color: #020d3a;
+    background-color: #020d3a;
+    color:#f3f8fe;
+    padding-left: 10px;
 
 }
 a{
@@ -93,3 +95,9 @@ input{
     float:right;
     margin:10px;
 }
+@media only screen and (max-width: 600px) {
+    nav a{display:block}}
+    span{display:none;}
+    nav a{padding:10px}
+    @media only screen and (min-width:600px){
+    span{display:inline;} }
