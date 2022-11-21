@@ -99,5 +99,6 @@ input{
     nav a{display:block}}
     span{display:none;}
     nav a{padding:10px}
+    
     @media only screen and (min-width:600px){
     span{display:inline;} }
