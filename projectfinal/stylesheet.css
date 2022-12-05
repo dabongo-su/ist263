@@ -1,0 +1,140 @@
+
+nav{
+    padding: 10px;
+    margin: bottom 30px;
+    font-size: 1.5em;
+    color:#4a4a4a;
+}
+body{
+background-color:#ffffff;
+font-family:Helvetica
+}
+h1{
+    font-size:3em;
+}
+h2{
+    font-size:1.5em;
+}
+hr{
+ height: 1.5px;
+ background-color: #020d3a;
+ color:#020d3a
+}
+.boldhr{
+    height:5px;
+    background-color:#020d3a;
+}
+.parent1{
+    display:flex;
+}
+.childdefine{
+    margin: 30px;
+    padding:20px;
+    margin-top: 50px;
+}
+.childimage{
+  margin: 30px;
+  padding:30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+
+}
+p, li{
+    font-size: 1em;
+    color: #020d3a;
+}
+.footrow1{
+    display:flex;
+    width:100%;
+    background-color: #001a66;
+    color:#f3f8fe;
+}
+.footrow2{
+    background-color: #001a66;
+    color:#f3f8fe;
+    padding-left: 10px;
+
+}
+a{
+    color:#f3f8fe
+}
+.c1,.c2{
+    padding:50px;
+}
+.c1{
+    width:30%;
+    margin:0 auto;  
+}
+.c2{
+    width:30%;
+    margin:0 auto;
+}
+
+nav{
+    background-color: #001a66;
+    color:#f3f8fe;
+}
+.sketching, .cups, .container, .toy, .statue{
+    width:20%;
+}
+.pan{
+    width: 10%;
+}
+.linkedin{
+ margin: 60px;
+}
+input{
+    margin:20px;
+}
+.projectheaders{
+    display:flex;
+    float:right;
+}
+.chopheader{
+    margin:10px;
+    float:right;
+
+}
+.helmetheader{
+    float:right;
+    margin:10px;
+}
+.chophead{
+ padding-left: 70px;
+    
+} 
+.kitchenprocessimg{
+    width: 15%;
+}
+.helmetprocessimg{
+    width:10%;
+}
+.video{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.processmaterials{
+    display:flex;
+}
+
+.mats{
+    padding-right:60px;
+
+}
+p,h1,h2{
+    padding-right:20px;
+    padding-left: 20px;
+}
+.imgcenter{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    nav a{display:block}}
+    span{display:none;}
+    nav a{padding:10px}
+    .video{max-width: 100%}
+
+    @media only screen and (min-width:600px){
+    span{display:inline;} }
