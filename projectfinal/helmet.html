@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helmet Design</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .skip {
+            background-color: #ffffff;
+            color:#001a66;
+            padding: 5px;
+            border: 1px solid black;
+            position: absolute;
+            top: 30px;
+            left: -999px; }
+        .skip:focus { 
+           left: 10px;
+        }
+    </style>
     <script>
         var i = 0; //Start point
         var images = [];
@@ -32,13 +45,14 @@
 </head>
 <body>
     <nav>
-        <a href="index.html" tabindex="1"> Home </a><span>&#124;</span>
-        <a href="kitchentool.html" tabindex="2"> Kitchenware </a><span>&#124;</span>
-        <a href="helmet.html" tabindex="3"> Helmet </a>
+        <a href="#content" class="skip" tabindex="1">Skip to Content</a>
+        <a href="index.html" tabindex="2"> Home </a><span>&#124;</span>
+        <a href="kitchentool.html" tabindex="3"> Kitchenware </a><span>&#124;</span>
+        <a href="helmet.html" tabindex="4"> Helmet </a>
     </nav>
-    <h1>Compactable Bike Helmet</h1>
+    <h1 id="content">Compactable Bike Helmet</h1>
     <hr>
-    <div class="imgcenter"> <img src="../project/images/H1" id="slide" width="600" height="600" alt="Helmet slideshow"></div>
+    <div class="imgcenter"> <img name="slide" width="600" height="600" alt="Helmet slideshow"></div>
     <section>
         <h2>Idea</h2>
      <p>My goal for this project was to create a helmet that is protective and fits my head. I decided to
@@ -86,17 +100,17 @@
 
     <iframe class="video" width="800" height="550" src="https://www.youtube.com/embed/246opWsxvBY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
     <footer> 
-        <div class="footrow1"> <!-- the row for the flexbox -->
+        <div class="footrow1"> 
             <div class="c1">
-                <a href="index.html" tabindex="4">Home</a><br>
-                <a href="kitchentool.html" tabindex="5">Kitchen Tool</a><br>
-                <a href="helmet.html" tabindex="6">Helmet</a></div>
+                <a href="index.html" tabindex="5">Home</a><br>
+                <a href="kitchentool.html" tabindex="6">Kitchen Tool</a><br>
+                <a href="helmet.html" tabindex="7">Helmet</a></div>
             <div class="c2">
                 <label for="anyquestions">Questions/Contact:</label>
                       <textarea id="anyquestions" name="anyquestions"></textarea><br>
                       <input type="submit" value="Submit"> </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/delaney-bongo-8784331b0/" tabindex="7">Linkedin Profile</a>
+                        <a href="https://www.linkedin.com/in/delaney-bongo-8784331b0/" tabindex="8">Linkedin Profile</a>
                         <p><img src="..//project/images/logo-sized.jpg" alt="Linkedin Logo"></p>
                     </div>
             </div>  
