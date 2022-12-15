@@ -24,14 +24,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
     </style>
         <script>
-            var s = 0; //Start point
+            var s = 3; //Start point
             var images = [];
             var time = 3000;
     
             //Image List
-            images[0] = '../project/images/C1'; alt="cutting board with hand on knife";
-            images[1] = '../project/images/C2'; alt="board with both knife handles";
-            images[2] = '../project/images/C4'; alt= "side view of handle slits in the board"; 
+            images[3] = '../project/images/C1'; alt="cutting board with hand on knife";
+            images[4] = '../project/images/C2'; alt="board with both knife handles";
+            images[5] = '../project/images/C4'; alt= "side view of handle slits in the board"; 
     
             //Change Image
             function changeImg(){
@@ -39,7 +39,7 @@
                if(s < images.length - 1){
                     s++;
                 } else {
-                    s = 0;
+                    s = 3;
                 }
                 setTimeout("changeImg()", time);
             }
